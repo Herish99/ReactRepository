@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import FirstComponent from './Component.jsx'
-import Babel from './01BabelinReactjs.jsx';
-import Navbar from './Navbar.jsx';
+import App from './App';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<>
-<FirstComponent/>
-<Babel/>
-<Navbar/>
-{/* <Header/> */}
-</>)
+root.render(<App/>)
+
+
+
 

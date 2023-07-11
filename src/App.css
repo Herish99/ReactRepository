@@ -1,0 +1,27 @@
+.active{
+    color: red;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: x-large;
+}
+ul li{
+    display: inline-block;
+    margin: 0 25px;
+    padding: 5px;
+}
+.row{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    color: blue;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
