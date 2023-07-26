@@ -11,6 +11,9 @@ import StateLifecycleInClassCompo from './classcomponent/05StateLifecycleInClass
 import StateLIfeCycleLoader from './classcomponent/06StateLIfeCycleLoader'
 import ConditionalRendering from './classcomponent/07ConditionalRendering'
 import ListAndKeys from './classcomponent/08ListAndKeys'
+import RestandSpread from './classcomponent/09RestandSpread'
+import UncontrolledCompo from './classcomponent/10UncontrolledCompo'
+import ControlledCompo from './classcomponent/11ControlledCompo'
 
 
 // This ('ClassCompoRouter') is a child router of main router named 'Router.jsx'
@@ -28,6 +31,9 @@ export default class ClassCompoRouter extends Component {
                 <Route path='statelifecycleloader' element= <StateLIfeCycleLoader/> />
                 <Route path='conditionalrendering' element= <ConditionalRendering/> />
                 <Route path='listandkeys' element= <ListAndKeys/> />
+                <Route path='restandspread' element= <RestandSpread/> />
+                <Route path='uncontrolled' element= <UncontrolledCompo/> />
+                <Route path='controlled' element= <ControlledCompo/> />
 
             </Route>
         </Routes>
