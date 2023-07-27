@@ -19,7 +19,7 @@ const Examples = () => {
                             <h3><Link to="classcompo">Class Component</Link></h3>
                     </div>
                     <div className="col-lg-6">
-                            <h3><Link to="functionalcompo">Fucntional Component</Link></h3>
+                            <h3><Link to="functionalcompo">Functional Component</Link></h3>
                     </div>
                 </div>
                 <div className="row">

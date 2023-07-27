@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 class StateLifecycleInClassCompo extends Component {
   constructor(props) {
@@ -9,8 +9,15 @@ class StateLifecycleInClassCompo extends Component {
       name: "Test",
       age: 15,
       status: true,
+      time:new Date()
     };
   }
+  tick = () => {
+    console.log("called tick");
+    this.setState({
+      time: new Date(),
+    });
+  };
 
   //State life cycle etle shu? State sharu thai tyathi lai ne state chalse tya sudhi tene kevay state life cycle, koni ander chalse ,to kai component ni andar.
   //Constructor is a method which is invoked by default when objects are created in js while,
@@ -25,6 +32,9 @@ class StateLifecycleInClassCompo extends Component {
 
   componentDidMount() {
     console.log("componentDidMount called");
+    this.timer = setInterval(
+      () => this.tick()
+      ,1000);
   }
 
   // componentWillReceiveProps(nextProps) {
@@ -33,9 +43,9 @@ class StateLifecycleInClassCompo extends Component {
 
   shouldComponentUpdate(nextProps, nextState) {
     console.log("shouldComponentUpdate called");
-    return true
+    return true;
     // return false
-    //condition or restriction provide karvu hoi state ma tyare use thai.for example Age 100 karta vadhare hoi tene entry nahi tevi condition nakhvi hoi tyare aa use thai. 
+    //condition or restriction provide karvu hoi state ma tyare use thai.for example Age 100 karta vadhare hoi tene entry nahi tevi condition nakhvi hoi tyare aa use thai.
     //return true hase to change thava lagse condition ane false hase to change nai thava dai.
     //if return is false then data will not change but it will get clicked. render and constructor are not called.
     // whenever button is pressed then this will invoke.
@@ -53,15 +63,17 @@ class StateLifecycleInClassCompo extends Component {
     console.log("componentWillUnmount");
     this.setState({ status: null });
     // during exit, inlast this will invoke.component mathi exit thav tyare aa invoke thai.
+    clearInterval(this.timer);
   }
 
   render() {
-//render is responsible for returing the jsx . 
+    //render is responsible for returing the jsx .
     console.log("render called");
     <div className="py-5"></div>;
 
     return (
       <div>
+        <h2> {this.state.time.toLocaleTimeString()}</h2>
         state life cycle State Value : {this.state.name} <br />
         <button
           className="btn btn-sm btn-primary"
