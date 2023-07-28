@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import PropTypes from "prop-types";
+import PropTypes from "prop-types";
 
 class StateLifecycleInClassCompo extends Component {
   constructor(props) {
@@ -31,7 +31,7 @@ class StateLifecycleInClassCompo extends Component {
   // }
 
   componentDidMount() {
-    console.log("componentDidMount called");
+    // console.log("componentDidMount called");
     this.timer = setInterval(
       () => this.tick()
       ,1000);
