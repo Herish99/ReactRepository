@@ -15,6 +15,7 @@ import RestandSpread from './classcomponent/09RestandSpread'
 import UncontrolledCompo from './classcomponent/10UncontrolledCompo'
 import ControlledCompo from './classcomponent/11ControlledCompo'
 import CompositionVsInheritance from './classcomponent/12.0CompositionVsInheritance'
+import MainParent from './classcomponent/13StateLifting/MainParent'
 
 
 // This ('ClassCompoRouter') is a child router of main router named 'Router.jsx'
@@ -36,6 +37,7 @@ export default class ClassCompoRouter extends Component {
                 <Route path='uncontrolled' element= <UncontrolledCompo/> />
                 <Route path='controlled' element= <ControlledCompo/> />
                 <Route path='compositionvsinheritance' element= <CompositionVsInheritance/> />
+                <Route path='statelifting' element= <MainParent/> />
 
             </Route>
         </Routes>
