@@ -18,6 +18,7 @@ export default class ClassCompoMenu extends Component {
         <li><Link to="controlled">Controlled component</Link>  </li>
         <li><Link to="compositionvsinheritance">Composition vs Inheritance</Link>  </li>
         <li><Link to="statelifting">State Lifting in class component</Link>  </li>
+        <li><Link to="hoc">High Order Component in class component</Link>  </li>
         <Outlet/>
         {/* If outet is not applied then inside cintent will not be shown so its compulsory to write outlet when we are dealing with child router or router inside another router */}      
        </ol>
