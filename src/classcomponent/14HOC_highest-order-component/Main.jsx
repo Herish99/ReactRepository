@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 import Enhanced from './Enhanced'
  class Main extends Component {
   render() {
-    const {clickhandle} = this.props 
+    const {clickHandle} = this.props 
     return (
       <>
-       <button className='btn btn-primary btn-md' onClick={clickhandle}>Click</button> 
+       <button className='btn btn-primary btn-md' onClick={clickHandle}>Click</button> 
       </>
     )
   }
