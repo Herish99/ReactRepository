@@ -1,11 +1,28 @@
 .active{
     color: red;
 }
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: black;
+}
 
 ul li a{
     text-decoration: none;
-    color: aqua;
-    font-size: x-large;
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+}
+ul li a:hover{
+    text-decoration: underline;
+    border-radius: 10px;
+    /* color: black; */
+    /* background-color: white; */
+    font-size: 17px;
+    /* box-shadow: 2px 2px 5px gray; */
+    box-shadow: -1px 0px 15px 5px white;
 }
 ul li{
     display: inline-block;
@@ -18,8 +35,17 @@ ul li{
     align-items: center;
 }
 .logo{
-    font-size: 2rem;
-    color: blue;
+    font-size: 1.5rem;
+    color: white;
+}
+.head{
+    background-color: rgba(0, 0, 0, 0.389);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.nav-bg{
+    background-color: transparent;
 }
 .container{
     width: 1200px;
