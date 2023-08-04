@@ -7,6 +7,7 @@ import IntroFunctionalCompo from "./functionalcompo/01IntroFunctionalCompo";
 import ReactjsRenderingInterviewQustions from "./functionalcompo/02ReactjsRenderingInterviewQustions";
 import StateInFunctionalCompo from "./functionalcompo/03StateInFunctionalCompo";
 import PropsinFunctionalCompo from "./functionalcompo/04PropsinFunctionalCompo";
+import StateExampleCounting from "./functionalcompo/03.1StateExampleCounting";
 
 const FunctionalCompoRouter = () => {
   return (
@@ -16,6 +17,7 @@ const FunctionalCompoRouter = () => {
           <Route path="functionalintro" element =<IntroFunctionalCompo/> />
           <Route path="renderingFunctionalcompo" element =<ReactjsRenderingInterviewQustions/> />
           <Route path="stateinFunctionalcompo" element =<StateInFunctionalCompo/> />
+          <Route path="stateexample" element =<StateExampleCounting/> />
           <Route path="propsinFunctionalcompo" element =<PropsinFunctionalCompo/> />
         </Route>
       </Routes>

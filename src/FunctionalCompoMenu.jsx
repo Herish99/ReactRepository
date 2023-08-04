@@ -9,6 +9,7 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="functionalintro">Intro Of Functional Component</Link></li>
                 <li><Link to="renderingFunctionalcompo">Rendering Of Functional Component</Link></li>
                 <li><Link to="stateinFunctionalcompo">State in Functional Component</Link></li>
+                <li><Link to="stateexample">State Example of counting </Link></li>
                 <li><Link to="propsinFunctionalcompo">Props in Functional Component</Link></li>
             </ol>
         </div>
