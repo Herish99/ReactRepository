@@ -6,6 +6,17 @@
     padding:0;
 }
 body{
+    background-color: transparent
+}
+.video-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video{
+    background-position: center ;
+}
+.bg{
     background-color: black;
 }
 
@@ -50,4 +61,67 @@ ul li{
 .container{
     width: 1200px;
     margin: 0 auto;
+}
+.col-50{
+    width: 45%;
+}
+.col-50 p{
+    width: 70%;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+}
+.col-50 img{
+    width: 100%;
+}
+.solo-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center  center;
+}
+.solo-img img{
+    width: 100%;
+}
+.s-text{
+    text-align: center;
+    justify-content:space-evenly;
+    align-items: flex-end;
+    color: black;
+    font-size: 27px;
+    font-weight: 500;
+    height: 100vh;
+    padding: 0 0 30px 0;
+    
+    
+}
+.s-text li{
+    list-style: none;
+}
+.custom-bg-img{
+    background-image: url(../public/image/s2-bg.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.title{
+    color: rgba(0, 0, 0, 0.826);
+    font-size: 40px;
+    font-size: 600;
+    text-align: center;
+    padding: 45px 0;
+}
+.custom-img-1{
+    background-image: url(../public/image/5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.carspecs ul li , h2{
+    color: white;
+    font-size: 25px;
+}
+.carSpec-items{
+    width: 30%;
+    text-align: left;
 }
