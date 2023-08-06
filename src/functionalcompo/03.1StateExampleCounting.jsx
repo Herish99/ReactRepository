@@ -28,7 +28,7 @@ const StateExampleCounting = () => {
             Counting with Increment and Decrement using state
         </h3>
         <div className=''>
-        <h4 >{count}</h4>
+        <h4 >Count : {count}</h4>
 
         <div >
         {/* <MDBBtn Btn className='mx-1' onClick={increment}>Increment</MDBBtn> */}
