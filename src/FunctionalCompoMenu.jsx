@@ -12,6 +12,7 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="stateexample">State Example of counting </Link></li>
                 <li><Link to="propsinFunctionalcompo">Props in Functional Component</Link></li>
                 <li><Link to="useEffect">Use-Effect in Functional Component</Link></li>
+                <li><Link to="uselayoutEffect">useLayoutEffect in Functional Component</Link></li>
             </ol>
         </div>
                 <Outlet/>

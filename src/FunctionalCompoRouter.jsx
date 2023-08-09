@@ -8,8 +8,8 @@ import ReactjsRenderingInterviewQustions from "./functionalcompo/02ReactjsRender
 import StateInFunctionalCompo from "./functionalcompo/03StateInFunctionalCompo";
 import PropsinFunctionalCompo from "./functionalcompo/04PropsinFunctionalCompo";
 import StateExampleCounting from "./functionalcompo/03.1StateExampleCounting";
-import UseEffect from "./functionalcompo/06UseEffect";
 import UseEffectinCompo from "./functionalcompo/06UseEffect";
+import UseLayoutEffect from "./functionalcompo/07useLayoutEffect";
 
 const FunctionalCompoRouter = () => {
   return (
@@ -22,6 +22,7 @@ const FunctionalCompoRouter = () => {
           <Route path="stateexample" element =<StateExampleCounting/> />
           <Route path="propsinFunctionalcompo" element =<PropsinFunctionalCompo/> />
           <Route path="useEffect" element =<UseEffectinCompo/> />
+          <Route path="uselayoutEffect" element =<UseLayoutEffect/> />
         </Route>
       </Routes>
     </>
