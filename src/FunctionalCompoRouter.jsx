@@ -10,6 +10,7 @@ import PropsinFunctionalCompo from "./functionalcompo/04PropsinFunctionalCompo";
 import StateExampleCounting from "./functionalcompo/03.1StateExampleCounting";
 import UseEffectinCompo from "./functionalcompo/06UseEffect";
 import UseLayoutEffect from "./functionalcompo/07useLayoutEffect";
+import StyledComponent from "./functionalcompo/08StyledComponent";
 
 const FunctionalCompoRouter = () => {
   return (
@@ -23,6 +24,7 @@ const FunctionalCompoRouter = () => {
           <Route path="propsinFunctionalcompo" element =<PropsinFunctionalCompo/> />
           <Route path="useEffect" element =<UseEffectinCompo/> />
           <Route path="uselayoutEffect" element =<UseLayoutEffect/> />
+          <Route path="styled" element =<StyledComponent/> />
         </Route>
       </Routes>
     </>
