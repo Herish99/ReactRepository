@@ -11,6 +11,8 @@ import StateExampleCounting from "./functionalcompo/03.1StateExampleCounting";
 import UseEffectinCompo from "./functionalcompo/06UseEffect";
 import UseLayoutEffect from "./functionalcompo/07useLayoutEffect";
 import StyledComponent from "./functionalcompo/08StyledComponent";
+import UseMemo from "./functionalcompo/09UseMemo";
+import UseCallbackFunction from "./functionalcompo/10UseCallback";
 
 const FunctionalCompoRouter = () => {
   return (
@@ -25,6 +27,8 @@ const FunctionalCompoRouter = () => {
           <Route path="useEffect" element =<UseEffectinCompo/> />
           <Route path="uselayoutEffect" element =<UseLayoutEffect/> />
           <Route path="styled" element =<StyledComponent/> />
+          <Route path="usememo" element =<UseMemo/> />
+          <Route path="usecallback" element =<UseCallbackFunction/> />
         </Route>
       </Routes>
     </>

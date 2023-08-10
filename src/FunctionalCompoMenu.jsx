@@ -13,6 +13,8 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="propsinFunctionalcompo">Props in Functional Component</Link></li>
                 <li><Link to="useEffect">Use-Effect in Functional Component</Link></li>
                 <li><Link to="styled">Styled Component in React</Link></li>
+                <li><Link to="usememo">Use memo in React</Link></li>
+                <li><Link to="usecallback">UseCallback in Functional component</Link></li>
             </ol>
         </div>
                 <Outlet/>
