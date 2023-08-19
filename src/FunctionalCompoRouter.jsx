@@ -13,6 +13,7 @@ import UseLayoutEffect from "./functionalcompo/07useLayoutEffect";
 import StyledComponent from "./functionalcompo/08StyledComponent";
 import UseMemo from "./functionalcompo/09UseMemo";
 import UseCallbackFunction from "./functionalcompo/10UseCallback";
+import UseImperative from "./functionalcompo/11UseImperative";
 
 const FunctionalCompoRouter = () => {
   return (
@@ -29,6 +30,7 @@ const FunctionalCompoRouter = () => {
           <Route path="styled" element =<StyledComponent/> />
           <Route path="usememo" element =<UseMemo/> />
           <Route path="usecallback" element =<UseCallbackFunction/> />
+          <Route path="imperative" element =<UseImperative/> />
         </Route>
       </Routes>
     </>

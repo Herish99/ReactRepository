@@ -26,7 +26,8 @@ export default function NavbarCompo() {
   return (
     <MDBNavbar expand='lg' light bgColor='light'>
       <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>Brand</MDBNavbarBrand>
+        {/* <MDBNavbarBrand href='/'>Herish</MDBNavbarBrand> */}
+        <Link className='nav-link p-2' to='/'>Herish</Link >
 
         <MDBNavbarToggler
           aria-controls='navbarSupportedContent'
@@ -47,9 +48,9 @@ export default function NavbarCompo() {
             {/* <MDBNavbarItem>
               <MDBNavbarLink href='/aboutus'>About us</MDBNavbarLink>
             </MDBNavbarItem> */}
-            <MDBNavbarItem active>
+            {/* <MDBNavbarItem active>
               <Link className='nav-link' to='/'>Home</Link>
-            </MDBNavbarItem>
+            </MDBNavbarItem> */}
             <MDBNavbarItem>
               <Link className='nav-link' to='/aboutus'>About us</Link>
             </MDBNavbarItem>

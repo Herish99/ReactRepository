@@ -25,7 +25,12 @@ const UseCallbackFunction = () => {
 
   //===============USING CALLBACK HOOK , ENDS ================
 
-
+  //=========--------Explanation ---------===========
+  
+  //Jyre apde call back vaparya vagar button upar click karta hata tyare game te button upar click karo badhaj (3 ey) function call thata hata ek sathe j khotu che. e apde check karva mate map & set mathi set methpd vapri che j adv js ma joyu hatu. just debuging purpose mate j set method vapri che kem k tema size property apdne help kare che. details mate adv js jovu map and set mate.
+  //jyare apde call back hook use kaiye and ema apde dependencies nakhiye tyare apde j button click karyu hoi ane agar eni dependencies alag alag hoi to te function j call thase jem upar vadu example show kare che.
+  //IMP :--- Dependencies nakya vagar try karso to kai fark nai pade....dependendcies j main che j khas yaad rakhvu.
+  
 
 
 

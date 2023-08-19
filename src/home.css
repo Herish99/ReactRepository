@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.icons-type li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+li i{
+    font-size: 25px;
+}
+.col-drk{
+    color: black;
+}
+.col-light{
+    color: rgba(0, 0, 0, 0.603);
+}
+.fwB{
+    font-weight: 900;
+}
