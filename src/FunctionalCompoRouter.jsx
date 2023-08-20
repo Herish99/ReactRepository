@@ -14,6 +14,8 @@ import StyledComponent from "./functionalcompo/08StyledComponent";
 import UseMemo from "./functionalcompo/09UseMemo";
 import UseCallbackFunction from "./functionalcompo/10UseCallback";
 import UseImperative from "./functionalcompo/11UseImperative";
+import HoneyCombInterviewtask from "./functionalcompo/13HoneyCombInterviewtask";
+import UseRef from "./functionalcompo/15UseRef";
 
 const FunctionalCompoRouter = () => {
   return (
@@ -31,6 +33,8 @@ const FunctionalCompoRouter = () => {
           <Route path="usememo" element =<UseMemo/> />
           <Route path="usecallback" element =<UseCallbackFunction/> />
           <Route path="imperative" element =<UseImperative/> />
+          <Route path="honeycombtask" element =<HoneyCombInterviewtask/> />
+          <Route path="useref" element =<UseRef/> />
         </Route>
       </Routes>
     </>
