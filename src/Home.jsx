@@ -12,7 +12,7 @@ const Home = () => {
             <h5>A passionate front end developer from Gujarat, india </h5>
             <div className="icons d-flex">
               <div className="in-icon pe-3">
-                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-github " style={{color: '##000000'}}></i>
               </div>
               <div className="in-icon pe-3">
                 <i class="fa-brands fa-linkedin"></i>
@@ -28,19 +28,19 @@ const Home = () => {
             <div className="icons-type">
               
                 <li>
-                  <i className="fa-brands fa-html5" style={{color: "#d74f2d;"}}></i>
+                  <i className="fa-brands fa-html5" style={{color: '#d74f2d'}}></i>
                 </li>
                 <li>
-                  <i className="fa-brands fa-css3" style={{color: "#3b75d8;"}}></i>
+                  <i className="fa-brands fa-css3" style={{color: "#3b75d8"}}></i>
                 </li>
                 <li>
-                  <i className="fa-brands fa-js" style={{color: "#f9f61f;"}}></i>
+                  <i className="fa-brands fa-js" style={{color: "#f9f61f"}}></i>
                 </li>
                 <li>
-                  <i className="fa-brands fa-react" style={{color: "#669af5;"}}></i>
+                  <i className="fa-brands fa-react" style={{color: "#669af5"}}></i>
                 </li>
                 <li>
-                  <i className="fa-brands fa-bootstrap" style={{color: "#124eb5;"}}></i>
+                  <i className="fa-brands fa-bootstrap" style={{color: "#124eb5"}}></i>
                 </li>
               
             </div>

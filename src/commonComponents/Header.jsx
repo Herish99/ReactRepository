@@ -60,6 +60,9 @@ export default function NavbarCompo() {
             <MDBNavbarItem>
               <Link className='nav-link' to='/examples'>Examples</Link>
             </MDBNavbarItem>
+            <MDBNavbarItem>
+              <Link className='nav-link' to='/styled'>Styled Assignment</Link>
+            </MDBNavbarItem>
 
             <MDBNavbarItem>
               <MDBDropdown>

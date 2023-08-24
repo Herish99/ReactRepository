@@ -18,6 +18,9 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="useref">UseRef Hook in Functional component</Link></li>
                 <li><Link to="imperative">UseImperative in Functional component</Link></li>
                 <li><Link to="honeycombtask">Honeycomb interview task</Link></li>
+                <li><Link to="usedebug">UseDebug value component</Link></li>
+                <li><Link to="usedefered">UseDeffered value component</Link></li>
+                <li><Link to="usecontext">UseContext hook in component</Link></li>
             </ol>
         </div>
                 <Outlet/>

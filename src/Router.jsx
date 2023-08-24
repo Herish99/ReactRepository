@@ -6,6 +6,7 @@ import Contactus from "./Contactus";
 import MainHeader from "./commonComponents/Header";
 import Examples from "./Examples";
 import { Suspense } from "react";
+import Styled from "./Styled";
 
 // import ClassCompoRouter from "./ClassCompoRouter";
 
@@ -104,6 +105,16 @@ const router = createBrowserRouter([
         ),
       },
     ],
+  },
+  {
+    path: "/styled",
+    element: (
+      <>
+        <MainHeader />
+        <Styled />
+      </>
+    ),
+    // element: <><Aboutus/></>,
   },
 ]);
 

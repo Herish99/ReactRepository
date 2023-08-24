@@ -11,6 +11,8 @@ import { forwardRef, useRef, useImperativeHandle } from 'react';
 //     },
 //   };
 // });
+
+//forwardRef use karvu compulsory che toj ref ne khabar padse k parent component mathi call thai che.
 const MyInput = forwardRef(function MyInput(props, ref) {
     console.log("child compo");
     const inputRef = useRef(null);
