@@ -21,6 +21,7 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="usedebug">UseDebug value component</Link></li>
                 <li><Link to="usedefered">UseDeffered value component</Link></li>
                 <li><Link to="usecontext">UseContext hook in component</Link></li>
+                <li><Link to="usereducer">UseReducer hook in component</Link></li>
             </ol>
         </div>
                 <Outlet/>

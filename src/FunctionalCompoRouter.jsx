@@ -19,6 +19,7 @@ import UseRef from "./functionalcompo/15UseRef";
 import UseDebug from "./functionalcompo/16UseDebug";
 import UseDeffered from "./functionalcompo/17UseDeffered";
 import UseContext from "./functionalcompo/18usecontext/18UseContext";
+import UseReducer from "./functionalcompo/19UseReducer";
 
 const FunctionalCompoRouter = () => {
   return (
@@ -41,6 +42,7 @@ const FunctionalCompoRouter = () => {
           <Route path="usedebug" element =<UseDebug/> />
           <Route path="usedefered" element =<UseDeffered/> />
           <Route path="usecontext" element =<UseContext/> />
+          <Route path="usereducer" element =<UseReducer/> />
         </Route>
       </Routes>
     </>
