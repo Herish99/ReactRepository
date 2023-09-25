@@ -18,11 +18,16 @@ export default class CompositionVsInheritance extends Component {
             component to acccess this kind functionality.
           </b>
           <p>
-            props ma child ma fixed structure banavi nakhta ane parent mathi[this.prop.xyz] kari ani value change karta jem k title name , description, other values etc. 
+            props ma child ma fixed structure banavi nakhta ane parent mathi
+            attribute tarike 'property' pass karta and child ni andar
+            [this.prop.xyz] kari ani value change karta jem k title name ,
+            description, other values etc.
           </p>
           <p className="my-3">
             ChildofComposition je component che te opening and closing tag vado
-            banavo pade etle ene compose karyu kevay (banavu kevay) ane ani vache j content lakhay tene children mathi inherite karyu kevay etle ene inheritance kevay. 
+            banavo pade etle ene compose karyu kevay (banavu kevay) ane ani
+            vache j content lakhay tene children mathi inherite karyu kevay etle
+            ene inheritance kevay.
           </p>
         </h5>
 
@@ -32,12 +37,13 @@ export default class CompositionVsInheritance extends Component {
             <ChildofComposition>
               {/* <h2>description</h2> */}
               <p>
-                Aa card ma description ni jarur nathi to amaa thi te tag remove kari nakhvano.
+                Aa card ma description ni jarur nathi to amaa thi te tag remove
+                kari nakhvano.
               </p>
             </ChildofComposition>
           </div>
           <div className="col-3">
-            <ChildofComposition title= "aa title props thi banavelu che, composiVSinheri thi nahi">
+            <ChildofComposition title="aa title props thi banavelu che, composiVSinheri thi nahi">
               <h2>description with image req no p tag</h2>
               {/* <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -14,7 +14,7 @@ export default class Classcompointro extends Component {
             component API reference here.
           </p>
           <p>
-            in reactJs we have two ways to create a compo Function and Class
+            in reactJs we have two ways to create a components 1) Function component and 2) Class
             Components
           </p>
           <h3>Class Component</h3>

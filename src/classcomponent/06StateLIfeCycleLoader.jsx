@@ -5,7 +5,7 @@ export default class StateLIfeCycleLoader extends Component {
         console.log("constructor called");
         super(props);
         // Declare State with default value for loader enable disable functionalities START
-        this.state = {data:"Something",loader:false}
+        this.state = {data:"Something",loader:true}
         // Declare State with default value for loader enable disable functionalities END
         
         // Using setTimeOut function make chnages in state after 2sec START

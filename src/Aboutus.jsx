@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
+
 const Aboutus = () => {
 
   const [cart, setCart] = useState([]);
@@ -23,10 +24,14 @@ const Aboutus = () => {
           <div key={index} className="product">
             <h2>{product.name}</h2>
             <p>Price: ${product.price}</p>
-            <button onClick={() => addToCart(product)}>Add to Cart</button>
+            <button className='btn btn-primary' onClick={() => addToCart(product)}>Add to Cart</button>
           </div>
         ))}
       </div>
+     
+      
+
+
       <div className="cart">
         <h2>Your Cart</h2>
         <ul>

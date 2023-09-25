@@ -18,7 +18,7 @@ const UseEffectinCompo = () => {
         
     },[])
 
-    // when above use-effect is used without dependencies means '[]' .then it will be called once when component mounted.
+    // when above use-effect is used with empty dependencies means '[]' .then it will be called once when component mounted.
 
     //Above hook gets to work only one time when component gets mounted because it does not have dependencies. And it comes under the point 1)initialization and 2) Mounting
     // ********************************
@@ -32,7 +32,7 @@ const UseEffectinCompo = () => {
     },[count])
     // ********************************
     // Now the points come for 4) UnMounting
-    // As we knnow useEffect is cllback function which means it will die on completion of work. So we can write it as below with using return and then  function inside of it and that will be used as unmounting.
+    // As we knnow useEffect is callback function which means it will die on completion of work. So we can write it as below with using return and then  function inside of it and that will be used as unmounting.
 
     useEffect(()=>{
         console.log("UseEffect called as value gets changed" ,count);
